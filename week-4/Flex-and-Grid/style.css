@@ -1,0 +1,128 @@
+html, body {
+   background-color: hsl(0, 0, 95%);
+   height: 100%;
+   width: 100%;
+}
+
+
+.flex-container {
+    height: 100%;
+    margin: auto;
+    width: 60%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.flex-item {
+    height: 70%;
+    box-sizing: border-box;
+}
+.sedan {
+    width: 33%;
+/*     height: 100%; */
+    background-color:  hsl(31, 77%, 52%);
+}
+
+.suv {
+    width: 33%;
+/*     height: 100%; */
+    background-color: hsl(184, 100%, 22%);
+}
+
+.luxury {
+    width: 33%;
+/*     height: 100%; */
+    background-color: hsl(179, 100%, 13%);
+}
+
+@font-face {
+    font-family: Big Shoulders Display;
+    src: url(BigShouldersDisplay-VariableFont_wght.ttf);
+}
+@font-face {
+    font-family: Lexend Deca;
+    src: url(LexendDeca-VariableFont_wght.ttf);
+}
+.heading {
+    font-family: Big Shoulders Display;
+    font-weight: 700;
+    color: hsl(0, 0%, 95%);
+}
+
+.pitch{
+    font-family: Lexend Deca;
+    font-weight: 400;
+    font-size: 15px;
+    color: hsla(0, 0%, 100%, 0.75);
+}
+
+.heading, .pitch, .butt, img {
+    margin: 25px;
+}
+button {
+    background-color: hsl(0, 0%, 95%);
+    padding: 10px 18px;
+    border: none;
+    border-radius: 24px;
+    font-size: 15px;
+    font-weight: 400;
+
+}
+.sedan > .butt {
+    color: hsl(31, 77%, 52%);
+}
+.suv > .butt {
+    color: hsl(184, 100%, 22%);
+}
+.luxury > .butt {
+    color: hsl(179, 100%, 13%);
+}
+
+
+@media screen and (max-width:375px) {
+  .sedan {
+    width: 100%;
+    height: 33%;
+  }
+  .suv {
+    width: 100%;
+    height: 33%;
+  }
+  .luxury {
+    width: 100%;
+    height: 33%;
+  }
+.flex-container {
+    flex-direction: column;
+    height: 85%;
+    width: 100%;
+    justify-contents: center;
+  }
+  main {
+    height: 50%;
+  }
+  .heading {
+    margin: 5px;
+    font-size: 20px;
+  }
+  .pitch {
+    margin: 5px;
+  }
+  .butt{
+    margin: 5px;
+  }
+  img {
+    margin: 5px;
+  }
+  .pitch {
+    font-size: 12px;
+  }
+  button {
+    padding: 5px 9px;
+    font-size: 12px;
+  }
+  br {
+    display: none;
+  }
+}
