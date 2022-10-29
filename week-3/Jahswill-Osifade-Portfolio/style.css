@@ -1,0 +1,77 @@
+html, body {
+  height: 100%;
+  width: 100%;
+  background-color: #d8f3e5
+}
+
+.container {
+  width: 100%;
+  margin: 0 auto;
+  padding: 0;
+}
+header>ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #010055; 
+}
+
+header li {
+  float: right;
+}
+
+header li a {
+  display: block;
+  color: #cfd59f;
+  padding: 14px 25px;
+  text-align: center;
+  text-decoration: none;
+}
+
+li a:hover{
+  color: red
+}
+
+header li a:hover {
+  background-color: #010099;
+  color: #cfd59f;
+}
+
+
+#home {
+  color: #121212;
+  font-family: Arial, Helvetica, sans-serif;
+}
+#intro {
+  color: #010055
+}
+div>img {
+  border: 5px solid #010055;
+  margin: 20px
+}
+#aboutme {
+ color: #121212;
+ padding: 8px;
+ font-family: Arial, Helvetica, sans-serif;
+}
+.sectionhead {
+  color: #010055;
+  font-family: Arial, Helvetica, sans-serif;
+}
+#services {
+  color: #121212;
+  padding: 8px;
+  font-family: Arial, Helvetica, sans-serif; 
+}
+#projects {
+  color: #121212;
+  padding: 8px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+#contactme {
+  color: #121212;
+  padding: 8px;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center
+}

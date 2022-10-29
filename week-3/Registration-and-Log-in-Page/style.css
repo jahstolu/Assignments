@@ -1,0 +1,12 @@
+html, body {
+  height: 100%;
+  width: 100%;
+  background-color: mintcream;
+}
+
+h2 {
+  color: #4e857d;
+}
+input:hover {
+  background-color: lightskyblue;
+}

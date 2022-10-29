@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Log In</title>
+  <style>
+    html,
+    body {
+      background-color: mintcream;
+    }
+
+    h2 {
+      color: #4e857d;
+    }
+
+    input:hover {
+      background-color: lightskyblue;
+    }
+  </style>
+  <style>
+    html,
+    body {}
+  </style>
+</head>
+
+<body>
+  <form action="/success.html">
+    <header>
+      <h2>
+        Sign into your account
+      </h2>
+    </header>
+    <main>
+      <table>
+        <tr>
+          <td><label for="email">E-mail address:</label></td>
+          <td>
+            <input type="email" id="email" name="email" required>
+          </td>
+        </tr>
+        <tr>
+          <td><label for="pwd">Password:</label></td>
+          <td>
+            <input type="password" id="pwd" name="pwd" pattern="[0-9A-Za-z@#$%*.-_]{8,12}" maxlength="12"
+              title="Your password should contain at least 8 characters and no more than 12 characters" required</td>
+        </tr>
+        <tr>
+          <td>
+            <input type="submit" value="Submit">
+          </td>
+        </tr>
+      </table>
+    </main>
+    <footer>
+      <p><a href="#">Forgot Password?</a></p>
+      <p>Don't have an account yet? <a href="index.html" target="_self">Register</a></p>
+    </footer>
+
+  </form>
+</body>
+
+</html>
